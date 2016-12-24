@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4C06091-161E-4DC5-B531-5C68D25FD963}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E5BA708-C4B4-4FD4-9DF3-DFCD55B6EAEF}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "rx-signalr-sample", "src\rx-signalr-sample\rx-signalr-sample.xproj", "{21834B6F-69AF-4C9F-9B9E-79E403543F8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21834B6F-69AF-4C9F-9B9E-79E403543F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21834B6F-69AF-4C9F-9B9E-79E403543F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21834B6F-69AF-4C9F-9B9E-79E403543F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21834B6F-69AF-4C9F-9B9E-79E403543F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21834B6F-69AF-4C9F-9B9E-79E403543F8B} = {A4C06091-161E-4DC5-B531-5C68D25FD963}
+	EndGlobalSection
+EndGlobal
