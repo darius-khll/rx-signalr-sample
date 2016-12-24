@@ -1,0 +1,13 @@
+{
+  "name": "rx-signalr-sample",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/rx": "^2.5.34",
+    "@types/signalr": "^2.2.32",
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {
+    "rx": "^4.1.0",
+    "signalr": "^2.2.1"
+  }
+}
